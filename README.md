@@ -1,35 +1,13 @@
 # wordpress-mysql-helm-chart
 
-This demo was created over kubadm create Kubernetes cluster.
-
-Dependencies
-
-kubectl (installation guide is here)
-helm (installation guide is here)
-Setup cluster
-
-To start using gcloud utility execute next command
-
-gcloud init
-Execute the next command to sign in
-
-gcloud auth login
-Select your GCP project (if you have one) or create a new one (you can do it via GCP Web Interface)
-
-gcloud projects list
-gcloud config set project <YOUR_PROJECT_ID>
-Finally, we can setup demo cluster
-
-gcloud container clusters create demo-cluster --zone europe-west4-a
-kubectl will be automatically configured to your created cluster
-
-You can check your demo-cluster status with next command
+Dependance
+use commands
 
 kubectl get nodes
 Usage
 
 Clone this git repository
-git clone git@github.com:ltblueberry/wordpress-mysql-helm-chart.git
+
 Execute next commands from repository directory
 check that all templates are valid
 
